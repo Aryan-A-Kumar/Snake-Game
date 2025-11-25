@@ -58,21 +58,17 @@ cd backend
 pip install -r requirements.txt
 python app.py
 ```
-2. Frontend Setup (React)
+### 2. Frontend Setup (React)
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-3. Database Setup (PostgreSQL)
+### 3. Database Setup (PostgreSQL)
 
-Ensure PostgreSQL is running.
-
-Create the database:
-
+Ensure PostgreSQL is running. Then create the database using:
+```sql
 CREATE DATABASE snakegame;
-
-
+```
 Update database connection details in the Flask backend configuration.
-
 Run migrations or allow SQLAlchemy to automatically create tables on first run.
